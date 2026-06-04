@@ -1,0 +1,19 @@
+partner,year,rnk,hs2_code,hs2_description,value_billion
+Italy,2015,1,85,Electrical & electronic equipment,0.48
+Italy,2015,2,72,Iron & steel,0.29
+Italy,2015,3,9,"Coffee, tea, spices",0.2
+Italy,2024,1,85,Electrical & electronic equipment,0.929
+Italy,2024,2,72,Iron & steel,0.668
+Italy,2024,3,9,"Coffee, tea, spices",0.409
+Japan,2015,1,85,Electrical & electronic equipment,3.52
+Japan,2015,2,62,Apparel — non-knit,1.18
+Japan,2015,3,61,Apparel — knit,1.05
+Japan,2024,1,85,Electrical & electronic equipment,6.45
+Japan,2024,2,61,Apparel — knit,2.01
+Japan,2024,3,62,Apparel — non-knit,1.92
+Netherlands,2015,1,85,Electrical & electronic equipment,2.1
+Netherlands,2015,2,84,Machinery & mechanical appliances,0.62
+Netherlands,2015,3,64,Footwear,0.54
+Netherlands,2024,1,85,Electrical & electronic equipment,5.54
+Netherlands,2024,2,84,Machinery & mechanical appliances,1.55
+Netherlands,2024,3,64,Footwear,1.26
