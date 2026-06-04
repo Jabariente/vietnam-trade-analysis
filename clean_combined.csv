@@ -1,0 +1,301 @@
+year,partner,hs2_code,hs2_description,trade_value_usd,trade_value_billion,share_of_total_pct,yoy_growth_pct,net_weight_kg,qty,reporter_code,partner_code
+2015,Italy,03,Fish & seafood,85000000,0.085,4.709,,,,704,380
+2016,Italy,03,Fish & seafood,92000000,0.092,4.684,8.24,,,704,380
+2017,Italy,03,Fish & seafood,101000000,0.101,4.674,9.78,,,704,380
+2018,Italy,03,Fish & seafood,111000000,0.111,4.674,9.9,,,704,380
+2019,Italy,03,Fish & seafood,119000000,0.119,4.687,7.21,,,704,380
+2020,Italy,03,Fish & seafood,113000000,0.113,4.65,-5.04,,,704,380
+2021,Italy,03,Fish & seafood,126000000,0.126,4.689,11.5,,,704,380
+2022,Italy,03,Fish & seafood,144000000,0.144,4.724,14.29,,,704,380
+2023,Italy,03,Fish & seafood,162000000,0.162,4.749,12.5,,,704,380
+2024,Italy,03,Fish & seafood,178000000,0.178,4.757,9.88,,,704,380
+2015,Italy,09,"Coffee, tea, spices",200000000,0.2,11.08,,,,704,380
+2016,Italy,09,"Coffee, tea, spices",215000000,0.215,10.947,7.5,,,704,380
+2017,Italy,09,"Coffee, tea, spices",235000000,0.235,10.875,9.3,,,704,380
+2018,Italy,09,"Coffee, tea, spices",255000000,0.255,10.737,8.51,,,704,380
+2019,Italy,09,"Coffee, tea, spices",272000000,0.272,10.713,6.67,,,704,380
+2020,Italy,09,"Coffee, tea, spices",260000000,0.26,10.7,-4.41,,,704,380
+2021,Italy,09,"Coffee, tea, spices",290000000,0.29,10.793,11.54,,,704,380
+2022,Italy,09,"Coffee, tea, spices",330000000,0.33,10.827,13.79,,,704,380
+2023,Italy,09,"Coffee, tea, spices",373000000,0.373,10.935,13.03,,,704,380
+2024,Italy,09,"Coffee, tea, spices",409000000,0.409,10.93,9.65,,,704,380
+2015,Italy,44,Wood & articles,95000000,0.095,5.263,,,,704,380
+2016,Italy,44,Wood & articles,103000000,0.103,5.244,8.42,,,704,380
+2017,Italy,44,Wood & articles,113000000,0.113,5.229,9.71,,,704,380
+2018,Italy,44,Wood & articles,124000000,0.124,5.221,9.73,,,704,380
+2019,Italy,44,Wood & articles,133000000,0.133,5.238,7.26,,,704,380
+2020,Italy,44,Wood & articles,127000000,0.127,5.226,-4.51,,,704,380
+2021,Italy,44,Wood & articles,141000000,0.141,5.247,11.02,,,704,380
+2022,Italy,44,Wood & articles,161000000,0.161,5.282,14.18,,,704,380
+2023,Italy,44,Wood & articles,181000000,0.181,5.306,12.42,,,704,380
+2024,Italy,44,Wood & articles,199000000,0.199,5.318,9.94,,,704,380
+2015,Italy,61,Apparel — knit,150000000,0.15,8.31,,,,704,380
+2016,Italy,61,Apparel — knit,162000000,0.162,8.248,8.0,,,704,380
+2017,Italy,61,Apparel — knit,178000000,0.178,8.237,9.88,,,704,380
+2018,Italy,61,Apparel — knit,196000000,0.196,8.253,10.11,,,704,380
+2019,Italy,61,Apparel — knit,210000000,0.21,8.271,7.14,,,704,380
+2020,Italy,61,Apparel — knit,200000000,0.2,8.23,-4.76,,,704,380
+2021,Italy,61,Apparel — knit,222000000,0.222,8.262,11.0,,,704,380
+2022,Italy,61,Apparel — knit,252000000,0.252,8.268,13.51,,,704,380
+2023,Italy,61,Apparel — knit,283000000,0.283,8.297,12.3,,,704,380
+2024,Italy,61,Apparel — knit,310000000,0.31,8.284,9.54,,,704,380
+2015,Italy,62,Apparel — non-knit,130000000,0.13,7.202,,,,704,380
+2016,Italy,62,Apparel — non-knit,141000000,0.141,7.179,8.46,,,704,380
+2017,Italy,62,Apparel — non-knit,155000000,0.155,7.173,9.93,,,704,380
+2018,Italy,62,Apparel — non-knit,171000000,0.171,7.2,10.32,,,704,380
+2019,Italy,62,Apparel — non-knit,183000000,0.183,7.208,7.02,,,704,380
+2020,Italy,62,Apparel — non-knit,174000000,0.174,7.16,-4.92,,,704,380
+2021,Italy,62,Apparel — non-knit,194000000,0.194,7.22,11.49,,,704,380
+2022,Italy,62,Apparel — non-knit,220000000,0.22,7.218,13.4,,,704,380
+2023,Italy,62,Apparel — non-knit,247000000,0.247,7.241,12.27,,,704,380
+2024,Italy,62,Apparel — non-knit,271000000,0.271,7.242,9.72,,,704,380
+2015,Italy,64,Footwear,180000000,0.18,9.972,,,,704,380
+2016,Italy,64,Footwear,195000000,0.195,9.929,8.33,,,704,380
+2017,Italy,64,Footwear,212000000,0.212,9.81,8.72,,,704,380
+2018,Italy,64,Footwear,232000000,0.232,9.768,9.43,,,704,380
+2019,Italy,64,Footwear,248000000,0.248,9.768,6.9,,,704,380
+2020,Italy,64,Footwear,235000000,0.235,9.671,-5.24,,,704,380
+2021,Italy,64,Footwear,263000000,0.263,9.788,11.91,,,704,380
+2022,Italy,64,Footwear,299000000,0.299,9.81,13.69,,,704,380
+2023,Italy,64,Footwear,336000000,0.336,9.85,12.37,,,704,380
+2024,Italy,64,Footwear,369000000,0.369,9.861,9.82,,,704,380
+2015,Italy,72,Iron & steel,290000000,0.29,16.066,,,,704,380
+2016,Italy,72,Iron & steel,315000000,0.315,16.039,8.62,,,704,380
+2017,Italy,72,Iron & steel,345000000,0.345,15.965,9.52,,,704,380
+2018,Italy,72,Iron & steel,380000000,0.38,16.0,10.14,,,704,380
+2019,Italy,72,Iron & steel,405000000,0.405,15.951,6.58,,,704,380
+2020,Italy,72,Iron & steel,380000000,0.38,15.638,-6.17,,,704,380
+2021,Italy,72,Iron & steel,440000000,0.44,16.375,15.79,,,704,380
+2022,Italy,72,Iron & steel,530000000,0.53,17.388,20.45,,,704,380
+2023,Italy,72,Iron & steel,609000000,0.609,17.854,14.91,,,704,380
+2024,Italy,72,Iron & steel,668000000,0.668,17.851,9.69,,,704,380
+2015,Italy,84,Machinery & mechanical appliances,120000000,0.12,6.648,,,,704,380
+2016,Italy,84,Machinery & mechanical appliances,130000000,0.13,6.619,8.33,,,704,380
+2017,Italy,84,Machinery & mechanical appliances,143000000,0.143,6.617,10.0,,,704,380
+2018,Italy,84,Machinery & mechanical appliances,158000000,0.158,6.653,10.49,,,704,380
+2019,Italy,84,Machinery & mechanical appliances,169000000,0.169,6.656,6.96,,,704,380
+2020,Italy,84,Machinery & mechanical appliances,161000000,0.161,6.626,-4.73,,,704,380
+2021,Italy,84,Machinery & mechanical appliances,179000000,0.179,6.662,11.18,,,704,380
+2022,Italy,84,Machinery & mechanical appliances,204000000,0.204,6.693,13.97,,,704,380
+2023,Italy,84,Machinery & mechanical appliances,229000000,0.229,6.714,12.25,,,704,380
+2024,Italy,84,Machinery & mechanical appliances,251000000,0.251,6.708,9.61,,,704,380
+2015,Italy,85,Electrical & electronic equipment,480000000,0.48,26.593,,,,704,380
+2016,Italy,85,Electrical & electronic equipment,530000000,0.53,26.986,10.42,,,704,380
+2017,Italy,85,Electrical & electronic equipment,590000000,0.59,27.302,11.32,,,704,380
+2018,Italy,85,Electrical & electronic equipment,650000000,0.65,27.368,10.17,,,704,380
+2019,Italy,85,Electrical & electronic equipment,695000000,0.695,27.373,6.92,,,704,380
+2020,Italy,85,Electrical & electronic equipment,680000000,0.68,27.984,-2.16,,,704,380
+2021,Italy,85,Electrical & electronic equipment,720000000,0.72,26.796,5.88,,,704,380
+2022,Italy,85,Electrical & electronic equipment,780000000,0.78,25.591,8.33,,,704,380
+2023,Italy,85,Electrical & electronic equipment,847000000,0.847,24.831,8.59,,,704,380
+2024,Italy,85,Electrical & electronic equipment,929000000,0.929,24.826,9.68,,,704,380
+2015,Italy,94,Furniture & bedding,75000000,0.075,4.155,,,,704,380
+2016,Italy,94,Furniture & bedding,81000000,0.081,4.124,8.0,,,704,380
+2017,Italy,94,Furniture & bedding,89000000,0.089,4.118,9.88,,,704,380
+2018,Italy,94,Furniture & bedding,98000000,0.098,4.126,10.11,,,704,380
+2019,Italy,94,Furniture & bedding,105000000,0.105,4.135,7.14,,,704,380
+2020,Italy,94,Furniture & bedding,100000000,0.1,4.115,-4.76,,,704,380
+2021,Italy,94,Furniture & bedding,112000000,0.112,4.168,12.0,,,704,380
+2022,Italy,94,Furniture & bedding,128000000,0.128,4.199,14.29,,,704,380
+2023,Italy,94,Furniture & bedding,144000000,0.144,4.222,12.5,,,704,380
+2024,Italy,94,Furniture & bedding,158000000,0.158,4.222,9.72,,,704,380
+2015,Japan,03,Fish & seafood,590000000,0.59,6.712,,,,704,392
+2016,Japan,03,Fish & seafood,560000000,0.56,5.938,-5.08,,,704,392
+2017,Japan,03,Fish & seafood,610000000,0.61,5.865,8.93,,,704,392
+2018,Japan,03,Fish & seafood,630000000,0.63,5.526,3.28,,,704,392
+2019,Japan,03,Fish & seafood,590000000,0.59,4.996,-6.35,,,704,392
+2020,Japan,03,Fish & seafood,520000000,0.52,4.896,-11.86,,,704,392
+2021,Japan,03,Fish & seafood,560000000,0.56,4.651,7.69,,,704,392
+2022,Japan,03,Fish & seafood,640000000,0.64,4.783,14.29,,,704,392
+2023,Japan,03,Fish & seafood,680000000,0.68,4.664,6.25,,,704,392
+2024,Japan,03,Fish & seafood,720000000,0.72,4.66,5.88,,,704,392
+2015,Japan,09,"Coffee, tea, spices",180000000,0.18,2.048,,,,704,392
+2016,Japan,09,"Coffee, tea, spices",190000000,0.19,2.015,5.56,,,704,392
+2017,Japan,09,"Coffee, tea, spices",200000000,0.2,1.923,5.26,,,704,392
+2018,Japan,09,"Coffee, tea, spices",220000000,0.22,1.93,10.0,,,704,392
+2019,Japan,09,"Coffee, tea, spices",210000000,0.21,1.778,-4.55,,,704,392
+2020,Japan,09,"Coffee, tea, spices",190000000,0.19,1.789,-9.52,,,704,392
+2021,Japan,09,"Coffee, tea, spices",210000000,0.21,1.744,10.53,,,704,392
+2022,Japan,09,"Coffee, tea, spices",240000000,0.24,1.794,14.29,,,704,392
+2023,Japan,09,"Coffee, tea, spices",260000000,0.26,1.783,8.33,,,704,392
+2024,Japan,09,"Coffee, tea, spices",280000000,0.28,1.812,7.69,,,704,392
+2015,Japan,39,Plastics,140000000,0.14,1.593,,,,704,392
+2016,Japan,39,Plastics,160000000,0.16,1.697,14.29,,,704,392
+2017,Japan,39,Plastics,180000000,0.18,1.731,12.5,,,704,392
+2018,Japan,39,Plastics,200000000,0.2,1.754,11.11,,,704,392
+2019,Japan,39,Plastics,220000000,0.22,1.863,10.0,,,704,392
+2020,Japan,39,Plastics,200000000,0.2,1.883,-9.09,,,704,392
+2021,Japan,39,Plastics,240000000,0.24,1.993,20.0,,,704,392
+2022,Japan,39,Plastics,270000000,0.27,2.018,12.5,,,704,392
+2023,Japan,39,Plastics,290000000,0.29,1.989,7.41,,,704,392
+2024,Japan,39,Plastics,310000000,0.31,2.006,6.9,,,704,392
+2015,Japan,44,Wood & articles,820000000,0.82,9.329,,,,704,392
+2016,Japan,44,Wood & articles,850000000,0.85,9.014,3.66,,,704,392
+2017,Japan,44,Wood & articles,890000000,0.89,8.558,4.71,,,704,392
+2018,Japan,44,Wood & articles,940000000,0.94,8.246,5.62,,,704,392
+2019,Japan,44,Wood & articles,970000000,0.97,8.213,3.19,,,704,392
+2020,Japan,44,Wood & articles,880000000,0.88,8.286,-9.28,,,704,392
+2021,Japan,44,Wood & articles,980000000,0.98,8.14,11.36,,,704,392
+2022,Japan,44,Wood & articles,1090000000,1.09,8.146,11.22,,,704,392
+2023,Japan,44,Wood & articles,1270000000,1.27,8.711,16.51,,,704,392
+2024,Japan,44,Wood & articles,1310000000,1.31,8.479,3.15,,,704,392
+2015,Japan,61,Apparel — knit,1050000000,1.05,11.945,,,,704,392
+2016,Japan,61,Apparel — knit,1110000000,1.11,11.771,5.71,,,704,392
+2017,Japan,61,Apparel — knit,1190000000,1.19,11.442,7.21,,,704,392
+2018,Japan,61,Apparel — knit,1320000000,1.32,11.579,10.92,,,704,392
+2019,Japan,61,Apparel — knit,1390000000,1.39,11.77,5.3,,,704,392
+2020,Japan,61,Apparel — knit,1190000000,1.19,11.205,-14.39,,,704,392
+2021,Japan,61,Apparel — knit,1420000000,1.42,11.794,19.33,,,704,392
+2022,Japan,61,Apparel — knit,1680000000,1.68,12.556,18.31,,,704,392
+2023,Japan,61,Apparel — knit,1910000000,1.91,13.1,13.69,,,704,392
+2024,Japan,61,Apparel — knit,2010000000,2.01,13.01,5.24,,,704,392
+2015,Japan,62,Apparel — non-knit,1180000000,1.18,13.424,,,,704,392
+2016,Japan,62,Apparel — non-knit,1230000000,1.23,13.043,4.24,,,704,392
+2017,Japan,62,Apparel — non-knit,1310000000,1.31,12.596,6.5,,,704,392
+2018,Japan,62,Apparel — non-knit,1490000000,1.49,13.07,13.74,,,704,392
+2019,Japan,62,Apparel — non-knit,1560000000,1.56,13.209,4.7,,,704,392
+2020,Japan,62,Apparel — non-knit,1340000000,1.34,12.618,-14.1,,,704,392
+2021,Japan,62,Apparel — non-knit,1570000000,1.57,13.04,17.16,,,704,392
+2022,Japan,62,Apparel — non-knit,1740000000,1.74,13.004,10.83,,,704,392
+2023,Japan,62,Apparel — non-knit,1830000000,1.83,12.551,5.17,,,704,392
+2024,Japan,62,Apparel — non-knit,1920000000,1.92,12.427,4.92,,,704,392
+2015,Japan,64,Footwear,390000000,0.39,4.437,,,,704,392
+2016,Japan,64,Footwear,420000000,0.42,4.454,7.69,,,704,392
+2017,Japan,64,Footwear,450000000,0.45,4.327,7.14,,,704,392
+2018,Japan,64,Footwear,490000000,0.49,4.298,8.89,,,704,392
+2019,Japan,64,Footwear,510000000,0.51,4.318,4.08,,,704,392
+2020,Japan,64,Footwear,430000000,0.43,4.049,-15.69,,,704,392
+2021,Japan,64,Footwear,480000000,0.48,3.987,11.63,,,704,392
+2022,Japan,64,Footwear,540000000,0.54,4.036,12.5,,,704,392
+2023,Japan,64,Footwear,580000000,0.58,3.978,7.41,,,704,392
+2024,Japan,64,Footwear,610000000,0.61,3.948,5.17,,,704,392
+2015,Japan,84,Machinery & mechanical appliances,610000000,0.61,6.94,,,,704,392
+2016,Japan,84,Machinery & mechanical appliances,680000000,0.68,7.211,11.48,,,704,392
+2017,Japan,84,Machinery & mechanical appliances,790000000,0.79,7.596,16.18,,,704,392
+2018,Japan,84,Machinery & mechanical appliances,890000000,0.89,7.807,12.66,,,704,392
+2019,Japan,84,Machinery & mechanical appliances,930000000,0.93,7.875,4.49,,,704,392
+2020,Japan,84,Machinery & mechanical appliances,840000000,0.84,7.91,-9.68,,,704,392
+2021,Japan,84,Machinery & mechanical appliances,960000000,0.96,7.973,14.29,,,704,392
+2022,Japan,84,Machinery & mechanical appliances,1080000000,1.08,8.072,12.5,,,704,392
+2023,Japan,84,Machinery & mechanical appliances,1210000000,1.21,8.299,12.04,,,704,392
+2024,Japan,84,Machinery & mechanical appliances,1290000000,1.29,8.35,6.61,,,704,392
+2015,Japan,85,Electrical & electronic equipment,3520000000,3.52,40.046,,,,704,392
+2016,Japan,85,Electrical & electronic equipment,3890000000,3.89,41.251,10.51,,,704,392
+2017,Japan,85,Electrical & electronic equipment,4410000000,4.41,42.404,13.37,,,704,392
+2018,Japan,85,Electrical & electronic equipment,4820000000,4.82,42.281,9.3,,,704,392
+2019,Japan,85,Electrical & electronic equipment,5010000000,5.01,42.422,3.94,,,704,392
+2020,Japan,85,Electrical & electronic equipment,4650000000,4.65,43.785,-7.19,,,704,392
+2021,Japan,85,Electrical & electronic equipment,5180000000,5.18,43.023,11.4,,,704,392
+2022,Japan,85,Electrical & electronic equipment,5610000000,5.61,41.928,8.3,,,704,392
+2023,Japan,85,Electrical & electronic equipment,6030000000,6.03,41.358,7.49,,,704,392
+2024,Japan,85,Electrical & electronic equipment,6450000000,6.45,41.748,6.97,,,704,392
+2015,Japan,94,Furniture & bedding,310000000,0.31,3.527,,,,704,392
+2016,Japan,94,Furniture & bedding,340000000,0.34,3.606,9.68,,,704,392
+2017,Japan,94,Furniture & bedding,370000000,0.37,3.558,8.82,,,704,392
+2018,Japan,94,Furniture & bedding,400000000,0.4,3.509,8.11,,,704,392
+2019,Japan,94,Furniture & bedding,420000000,0.42,3.556,5.0,,,704,392
+2020,Japan,94,Furniture & bedding,380000000,0.38,3.578,-9.52,,,704,392
+2021,Japan,94,Furniture & bedding,440000000,0.44,3.654,15.79,,,704,392
+2022,Japan,94,Furniture & bedding,490000000,0.49,3.662,11.36,,,704,392
+2023,Japan,94,Furniture & bedding,520000000,0.52,3.567,6.12,,,704,392
+2024,Japan,94,Furniture & bedding,550000000,0.55,3.56,5.77,,,704,392
+2015,Netherlands,03,Fish & seafood,200000000,0.2,4.132,,,,704,528
+2016,Netherlands,03,Fish & seafood,210000000,0.21,4.066,5.0,,,704,528
+2017,Netherlands,03,Fish & seafood,225000000,0.225,3.947,7.14,,,704,528
+2018,Netherlands,03,Fish & seafood,240000000,0.24,3.877,6.67,,,704,528
+2019,Netherlands,03,Fish & seafood,250000000,0.25,3.87,4.17,,,704,528
+2020,Netherlands,03,Fish & seafood,230000000,0.23,3.811,-8.0,,,704,528
+2021,Netherlands,03,Fish & seafood,280000000,0.28,3.96,21.74,,,704,528
+2022,Netherlands,03,Fish & seafood,320000000,0.32,3.858,14.29,,,704,528
+2023,Netherlands,03,Fish & seafood,360000000,0.36,3.756,12.5,,,704,528
+2024,Netherlands,03,Fish & seafood,455000000,0.455,3.762,26.39,,,704,528
+2015,Netherlands,09,"Coffee, tea, spices",230000000,0.23,4.752,,,,704,528
+2016,Netherlands,09,"Coffee, tea, spices",245000000,0.245,4.743,6.52,,,704,528
+2017,Netherlands,09,"Coffee, tea, spices",260000000,0.26,4.561,6.12,,,704,528
+2018,Netherlands,09,"Coffee, tea, spices",275000000,0.275,4.443,5.77,,,704,528
+2019,Netherlands,09,"Coffee, tea, spices",285000000,0.285,4.412,3.64,,,704,528
+2020,Netherlands,09,"Coffee, tea, spices",265000000,0.265,4.391,-7.02,,,704,528
+2021,Netherlands,09,"Coffee, tea, spices",315000000,0.315,4.455,18.87,,,704,528
+2022,Netherlands,09,"Coffee, tea, spices",360000000,0.36,4.34,14.29,,,704,528
+2023,Netherlands,09,"Coffee, tea, spices",400000000,0.4,4.173,11.11,,,704,528
+2024,Netherlands,09,"Coffee, tea, spices",505000000,0.505,4.175,26.25,,,704,528
+2015,Netherlands,39,Plastics,130000000,0.13,2.686,,,,704,528
+2016,Netherlands,39,Plastics,140000000,0.14,2.711,7.69,,,704,528
+2017,Netherlands,39,Plastics,155000000,0.155,2.719,10.71,,,704,528
+2018,Netherlands,39,Plastics,170000000,0.17,2.746,9.68,,,704,528
+2019,Netherlands,39,Plastics,180000000,0.18,2.786,5.88,,,704,528
+2020,Netherlands,39,Plastics,170000000,0.17,2.817,-5.56,,,704,528
+2021,Netherlands,39,Plastics,205000000,0.205,2.9,20.59,,,704,528
+2022,Netherlands,39,Plastics,245000000,0.245,2.954,19.51,,,704,528
+2023,Netherlands,39,Plastics,275000000,0.275,2.869,12.24,,,704,528
+2024,Netherlands,39,Plastics,347000000,0.347,2.869,26.18,,,704,528
+2015,Netherlands,44,Wood & articles,110000000,0.11,2.273,,,,704,528
+2016,Netherlands,44,Wood & articles,120000000,0.12,2.323,9.09,,,704,528
+2017,Netherlands,44,Wood & articles,135000000,0.135,2.368,12.5,,,704,528
+2018,Netherlands,44,Wood & articles,145000000,0.145,2.342,7.41,,,704,528
+2019,Netherlands,44,Wood & articles,155000000,0.155,2.399,6.9,,,704,528
+2020,Netherlands,44,Wood & articles,145000000,0.145,2.403,-6.45,,,704,528
+2021,Netherlands,44,Wood & articles,180000000,0.18,2.546,24.14,,,704,528
+2022,Netherlands,44,Wood & articles,210000000,0.21,2.532,16.67,,,704,528
+2023,Netherlands,44,Wood & articles,240000000,0.24,2.504,14.29,,,704,528
+2024,Netherlands,44,Wood & articles,303000000,0.303,2.505,26.25,,,704,528
+2015,Netherlands,61,Apparel — knit,350000000,0.35,7.231,,,,704,528
+2016,Netherlands,61,Apparel — knit,370000000,0.37,7.164,5.71,,,704,528
+2017,Netherlands,61,Apparel — knit,400000000,0.4,7.018,8.11,,,704,528
+2018,Netherlands,61,Apparel — knit,430000000,0.43,6.947,7.5,,,704,528
+2019,Netherlands,61,Apparel — knit,450000000,0.45,6.966,4.65,,,704,528
+2020,Netherlands,61,Apparel — knit,410000000,0.41,6.794,-8.89,,,704,528
+2021,Netherlands,61,Apparel — knit,490000000,0.49,6.931,19.51,,,704,528
+2022,Netherlands,61,Apparel — knit,570000000,0.57,6.872,16.33,,,704,528
+2023,Netherlands,61,Apparel — knit,650000000,0.65,6.781,14.04,,,704,528
+2024,Netherlands,61,Apparel — knit,820000000,0.82,6.78,26.15,,,704,528
+2015,Netherlands,62,Apparel — non-knit,390000000,0.39,8.058,,,,704,528
+2016,Netherlands,62,Apparel — non-knit,410000000,0.41,7.938,5.13,,,704,528
+2017,Netherlands,62,Apparel — non-knit,440000000,0.44,7.719,7.32,,,704,528
+2018,Netherlands,62,Apparel — non-knit,470000000,0.47,7.593,6.82,,,704,528
+2019,Netherlands,62,Apparel — non-knit,490000000,0.49,7.585,4.26,,,704,528
+2020,Netherlands,62,Apparel — non-knit,450000000,0.45,7.457,-8.16,,,704,528
+2021,Netherlands,62,Apparel — non-knit,540000000,0.54,7.638,20.0,,,704,528
+2022,Netherlands,62,Apparel — non-knit,630000000,0.63,7.595,16.67,,,704,528
+2023,Netherlands,62,Apparel — non-knit,720000000,0.72,7.512,14.29,,,704,528
+2024,Netherlands,62,Apparel — non-knit,910000000,0.91,7.524,26.39,,,704,528
+2015,Netherlands,64,Footwear,540000000,0.54,11.157,,,,704,528
+2016,Netherlands,64,Footwear,560000000,0.56,10.842,3.7,,,704,528
+2017,Netherlands,64,Footwear,600000000,0.6,10.526,7.14,,,704,528
+2018,Netherlands,64,Footwear,640000000,0.64,10.339,6.67,,,704,528
+2019,Netherlands,64,Footwear,660000000,0.66,10.217,3.12,,,704,528
+2020,Netherlands,64,Footwear,610000000,0.61,10.108,-7.58,,,704,528
+2021,Netherlands,64,Footwear,730000000,0.73,10.325,19.67,,,704,528
+2022,Netherlands,64,Footwear,870000000,0.87,10.488,19.18,,,704,528
+2023,Netherlands,64,Footwear,1000000000,1.0,10.433,14.94,,,704,528
+2024,Netherlands,64,Footwear,1260000000,1.26,10.418,26.0,,,704,528
+2015,Netherlands,84,Machinery & mechanical appliances,620000000,0.62,12.81,,,,704,528
+2016,Netherlands,84,Machinery & mechanical appliances,650000000,0.65,12.585,4.84,,,704,528
+2017,Netherlands,84,Machinery & mechanical appliances,700000000,0.7,12.281,7.69,,,704,528
+2018,Netherlands,84,Machinery & mechanical appliances,760000000,0.76,12.278,8.57,,,704,528
+2019,Netherlands,84,Machinery & mechanical appliances,790000000,0.79,12.229,3.95,,,704,528
+2020,Netherlands,84,Machinery & mechanical appliances,730000000,0.73,12.096,-7.59,,,704,528
+2021,Netherlands,84,Machinery & mechanical appliances,870000000,0.87,12.306,19.18,,,704,528
+2022,Netherlands,84,Machinery & mechanical appliances,1020000000,1.02,12.297,17.24,,,704,528
+2023,Netherlands,84,Machinery & mechanical appliances,1230000000,1.23,12.833,20.59,,,704,528
+2024,Netherlands,84,Machinery & mechanical appliances,1550000000,1.55,12.815,26.02,,,704,528
+2015,Netherlands,85,Electrical & electronic equipment,2100000000,2.1,43.388,,,,704,528
+2016,Netherlands,85,Electrical & electronic equipment,2280000000,2.28,44.143,8.57,,,704,528
+2017,Netherlands,85,Electrical & electronic equipment,2590000000,2.59,45.439,13.6,,,704,528
+2018,Netherlands,85,Electrical & electronic equipment,2850000000,2.85,46.042,10.04,,,704,528
+2019,Netherlands,85,Electrical & electronic equipment,2980000000,2.98,46.13,4.56,,,704,528
+2020,Netherlands,85,Electrical & electronic equipment,2820000000,2.82,46.727,-5.37,,,704,528
+2021,Netherlands,85,Electrical & electronic equipment,3210000000,3.21,45.403,13.83,,,704,528
+2022,Netherlands,85,Electrical & electronic equipment,3780000000,3.78,45.57,17.76,,,704,528
+2023,Netherlands,85,Electrical & electronic equipment,4390000000,4.39,45.801,16.14,,,704,528
+2024,Netherlands,85,Electrical & electronic equipment,5540000000,5.54,45.804,26.2,,,704,528
+2015,Netherlands,94,Furniture & bedding,170000000,0.17,3.512,,,,704,528
+2016,Netherlands,94,Furniture & bedding,180000000,0.18,3.485,5.88,,,704,528
+2017,Netherlands,94,Furniture & bedding,195000000,0.195,3.421,8.33,,,704,528
+2018,Netherlands,94,Furniture & bedding,210000000,0.21,3.393,7.69,,,704,528
+2019,Netherlands,94,Furniture & bedding,220000000,0.22,3.406,4.76,,,704,528
+2020,Netherlands,94,Furniture & bedding,205000000,0.205,3.397,-6.82,,,704,528
+2021,Netherlands,94,Furniture & bedding,250000000,0.25,3.536,21.95,,,704,528
+2022,Netherlands,94,Furniture & bedding,290000000,0.29,3.496,16.0,,,704,528
+2023,Netherlands,94,Furniture & bedding,320000000,0.32,3.339,10.34,,,704,528
+2024,Netherlands,94,Furniture & bedding,405000000,0.405,3.348,26.56,,,704,528

@@ -1,0 +1,48 @@
+[02:06:24] ==================================================
+[02:06:24]   Vietnam Trade Analysis — Data Cleaning Pipeline
+[02:06:24]   Started: 2026-06-03 02:06:24
+[02:06:24] ==================================================
+[02:06:24] 
+[1/3]  Cleaning Comtrade data...
+[02:06:24]   Raw rows: 300
+[02:06:24]   ✓ Clean rows: 300
+[02:06:24]   ✓ Partners: ['Italy', 'Japan', 'Netherlands']
+[02:06:24]   ✓ Years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+[02:06:24]   ✓ Saved: /home/claude/vietnam-trade-analysis/data/cleaned/clean_combined.csv
+[02:06:24] 
+[2/3]  Cleaning World Bank data...
+[02:06:24]   Raw rows: 30
+[02:06:24]   ✓ Clean rows: 10
+[02:06:24]   ✓ Saved: /home/claude/vietnam-trade-analysis/data/cleaned/clean_wb_indicators.csv
+[02:06:24] 
+[3/3]  Cleaning Eurostat data...
+[02:06:24]   ✓ Clean rows: 10
+[02:06:24]   ✓ Saved: /home/claude/vietnam-trade-analysis/data/cleaned/clean_eurostat_eu_vnm_totals.csv
+[02:06:24] 
+──────────────────────────────────────────────────
+[02:06:24]   DATA QUALITY REPORT
+[02:06:24] ──────────────────────────────────────────────────
+[02:06:24]   Japan:
+[02:06:24]     Years found:   [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+[02:06:24]     Years missing: None
+[02:06:24]     HS2 chapters:  10
+[02:06:24]     Total rows:    100
+[02:06:24]   Netherlands:
+[02:06:24]     Years found:   [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+[02:06:24]     Years missing: None
+[02:06:24]     HS2 chapters:  10
+[02:06:24]     Total rows:    100
+[02:06:24]   Italy:
+[02:06:24]     Years found:   [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+[02:06:24]     Years missing: None
+[02:06:24]     HS2 chapters:  10
+[02:06:24]     Total rows:    100
+[02:06:24] 
+  World Bank: 10 country-year rows
+[02:06:24]   Eurostat: 10 annual EU totals
+[02:06:24]     Range: 2015–2024
+[02:06:24] 
+==================================================
+[02:06:24]   CLEANING COMPLETE
+[02:06:24]   Next: python scripts/03_run_analysis.py
+[02:06:24] ==================================================
