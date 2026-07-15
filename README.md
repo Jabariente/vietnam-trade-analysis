@@ -1,150 +1,142 @@
 # Vietnam Export Dynamics: Japan, Netherlands & Italy (2015–2024)
 
-> A 10-year bilateral trade analysis examining how Vietnam's export relationships with three key partners have evolved — and what the data reveals about Vietnam's value-chain position in each relationship.
+A bilateral trade analysis built on UN Comtrade data, examining how Vietnam's export relationships with three partners evolved over ten years — and what the composition shifts reveal about Vietnam's position in global supply chains.
+
+**Tools:** Python · SQLite · Power BI Desktop  
+**Data:** UN Comtrade · World Bank · Eurostat  
+**Output:** 5-tab Power BI dashboard · business memo · methodology documentation
 
 ---
 
 ## Research Question
 
-**How have Vietnam's export relationships with Japan, the Netherlands, and Italy evolved between 2015 and 2024 — and what does the data reveal about Vietnam's value-chain position in each bilateral relationship?**
+How have Vietnam's exports to Japan, the Netherlands, and Italy changed between 2015 and 2024 — and does the data show value-chain advancement or volume-led stagnation?
 
 **Sub-questions:**
-- **Japan:** Vietnam exports high volume but captures small value share — which sectors show the highest upside?
-- **Netherlands:** How did EVFTA (August 2020) change Vietnam's export composition to the EU gateway?
-- **Italy:** Where does Vietnam sit in Italy's premium manufacturing supply chains?
-
----
-
-## Three-Country Framework
-
-| Country | Role | Key Angle |
-|---------|------|-----------|
-| 🇯🇵 Japan | Asia-Pacific anchor | Electronics value chain, CPTPP tariff flows, FDI nexus |
-| 🇳🇱 Netherlands | EU gateway | Rotterdam port, EVFTA before/after, largest EU partner (24.56% share) |
-| 🇮🇹 Italy | EU contrast case | Supply-chain reversal: Italy sends leather → Vietnam ships back finished footwear |
+- Japan: Which categories drive growth, and do unit economics improve over time?
+- Netherlands: Did the EVFTA (August 2020) produce export diversification or concentration?
+- Italy: Where does Vietnam sit in Italy's leather and footwear supply chain?
 
 ---
 
 ## Key Findings
 
-> ⚠️ *This section will be updated after SQL analysis is complete (Week 6).*
+**Netherlands — EVFTA produced concentration, not diversification.**  
+Exports to the Netherlands grew 51% post-EVFTA (2020–2024). Electronics share rose from ~58% (2019) to ~72% (2024). The trade agreement increased trade volume but deepened category dependence rather than broadening it.
 
-- **Japan:** TBD
-- **Netherlands:** TBD
-- **Italy:** TBD
-- **Overall:** TBD
+**Japan — Volume growth without value-chain advancement.**  
+Electronics dominate at 41.75% of 2024 exports ($6.45B). The category grew at 8.4% CAGR but unit values remained flat, indicating Vietnam participates at assembly level rather than capturing design or component margins.
+
+**Italy — Supply-chain reversal as competitive signal.**  
+Italy exports raw leather to Vietnam; Vietnam returns finished footwear and apparel. This is the clearest evidence of Vietnam moving up a value chain in any of the three relationships. Exports grow at 9.65% CAGR with footwear and coffee/spices both accelerating.
+
+**Cross-partner conclusion:** Vietnam holds a high-volume, mid-complexity manufacturing position across all three partners. Electronics dominate every bilateral relationship. No partner shows meaningful diversification away from this pattern — the EVFTA finding makes that explicit.
+
+---
+
+## Dashboard
+
+Five tabs. Each tab covers one analytical layer.
+
+| Tab | Content |
+|-----|---------|
+| Overview | 10-year export trend by partner · YoY growth · CAGR summary |
+| Japan | Category treemap · top-5 trend lines · electronics dominance |
+| Netherlands | Pre/post-EVFTA comparison · electronics concentration shift |
+| Italy | CAGR table by category · textiles/footwear trend · export mix |
+| Key Findings | Electronics share by partner · partner positioning scatter · strategic recommendations |
+
+**File:** `dashboard/vietnam_trade_analysis_dashboard.pbix`  
+Requires Power BI Desktop (free). Download at [powerbi.microsoft.com](https://powerbi.microsoft.com/desktop/).
 
 ---
 
 ## Dashboard Preview
 
-> ⚠️ *Screenshot to be added after Power BI dashboard is complete (Week 8).*
+### Overview
+![Overview](screenshots/overview.png)
+
+### Japan
+![Japan](screenshots/japan.png)
+
+### Netherlands
+![Netherlands](screenshots/netherlands.png)
+
+### Italy
+![Italy](screenshots/italy.png)
+
+### Key Findings
+![Key Findings](screenshots/key_findings.png)
+
+---
+
+## Data Pipeline
+
+```
+UN Comtrade API
+    └── 01_collect_data.py       # Pull bilateral trade data by HS2 code
+    └── 02_clean_data.py         # Standardize, filter, handle nulls
+    └── 03_run_analysis.py       # Generate derived metrics (CAGR, YoY, share)
+    └── clean_combined.csv       # Primary analysis table
+    └── clean_eurostat_eu_vnm_totals.csv  # EU-level totals for share calculation
+    └── clean_wb_indicators.csv  # World Bank GDP/trade context data
+```
+
+Run the full pipeline:
+```bash
+pip install -r requirements.txt
+python run_pipeline.py
+```
 
 ---
 
 ## Methodology
 
-### Data Sources
+**Data source:** UN Comtrade bilateral export records, HS2 classification, reporter = Vietnam, partners = Japan (392), Netherlands (528), Italy (380).
 
-| Source | What It Provides | URL |
-|--------|-----------------|-----|
-| UN Comtrade | Bilateral trade flows by HS product code, 2015–2024 | [comtradeplus.un.org](https://comtradeplus.un.org) |
-| World Bank Open Data | GDP, trade as % of GDP, tariff data | [data.worldbank.org](https://data.worldbank.org) |
-| Vietnam GSO | Vietnam-side export statistics | [gso.gov.vn/en](https://www.gso.gov.vn/en) |
-| Eurostat Comext | EU–Vietnam trade flows 2014–2024 | [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat) |
-| IMF DOTS | Direction of Trade Statistics (cross-check) | [imf.org/en/Data](https://www.imf.org/en/Data) |
+**Time range:** 2015–2024. 2015 chosen as baseline — pre-EVFTA, pre-US-China trade war FDI shift into Vietnam.
 
-### Tools
+**CAGR calculation:** Compound annual growth rate on USD trade values, calculated as `(end/start)^(1/n) - 1`.
 
-| Layer | Tool |
-|-------|------|
-| Data cleaning | Microsoft Excel |
-| Data analysis | SQLite + DB Browser for SQLite |
-| Visualisation | Power BI Desktop |
-| Portfolio | GitHub |
-| Business memo | Google Docs → PDF |
+**Electronics concentration:** Share of total bilateral export value attributable to HS2 code 85 (Electrical & electronic equipment).
 
-### Process
-1. Raw CSVs downloaded from UN Comtrade (HS 2-digit level, Vietnam as reporter)
-2. Cleaned in Excel — standardised column names, removed blanks, added YoY growth columns
-3. Imported into SQLite — 15 queries written to answer the research question
-4. Power BI dashboard built from query outputs — 5 tabs with country and year slicers
-5. 1-page business memo written summarising key findings and implications
+**Post-EVFTA period:** 2020–2024. EVFTA entered force August 1, 2020.
 
-See [`docs/methodology.md`](docs/methodology.md) for full data cleaning steps and limitations.
+**Excluded:** Unit value analysis (USD/kg) excluded due to weight reporting gaps in Comtrade data for Vietnam bilateral flows. This is noted as a data limitation.
+
+Full methodology: `methodology.md`
 
 ---
 
-## Repository Structure
+## Repo Structure
 
 ```
 vietnam-trade-analysis/
-│
-├── README.md                     ← You are here
-├── docs/
-│   ├── methodology.md            ← Data sources, cleaning steps, limitations
-│   └── masterplan.md             ← Project planning document
-│
-├── data/
-│   ├── raw/                      ← Original CSV downloads — do not edit
-│   │   ├── raw_VNM_JPN_2015_2024.csv
-│   │   ├── raw_VNM_NLD_2015_2024.csv
-│   │   ├── raw_VNM_ITA_2015_2024.csv
-│   │   ├── raw_WB_VNM_GDP.csv
-│   │   ├── raw_WB_VNM_tariffs.csv
-│   │   └── raw_Eurostat_VNM_2014_2024.csv
-│   │
-│   └── cleaned/                  ← Excel-cleaned files ready for SQLite
-│       ├── clean_VNM_JPN.csv
-│       ├── clean_VNM_NLD.csv
-│       ├── clean_VNM_ITA.csv
-│       └── clean_WB_indicators.csv
-│
-├── data/queries/                 ← All 15 SQL query files
-│   ├── 01_overview_total_exports.sql
-│   ├── 02_overview_yoy_growth.sql
-│   ├── 03_overview_vietnam_share.sql
-│   ├── 04_japan_top_categories.sql
-│   ├── 05_japan_cagr_categories.sql
-│   ├── 06_japan_unit_value_trend.sql
-│   ├── 07_nl_evfta_before_after.sql
-│   ├── 08_nl_evfta_category_uplift.sql
-│   ├── 09_nl_eu_gateway_share.sql
-│   ├── 10_italy_categories_all_years.sql
-│   ├── 11_italy_textiles_footwear.sql
-│   ├── 12_italy_eu_share.sql
-│   ├── 13_comparative_top_categories.sql
-│   ├── 14_comparative_structural_shift.sql
-│   └── 15_synthesis_primary_question.sql
-│
 ├── dashboard/
-│   └── vietnam_trade.pbix        ← Power BI file (add after Week 8)
-│
-└── memo/
-    └── business_memo.pdf         ← 1-page insight document (add after Week 8)
+│   └── vietnam_trade_analysis_dashboard.pbix
+├── screenshots/
+│   ├── overview.png
+│   ├── japan.png
+│   ├── netherlands.png
+│   ├── italy.png
+│   └── key_findings.png
+├── data/
+│   ├── clean_combined.csv
+│   ├── clean_eurostat_eu_vnm_totals.csv
+│   ├── clean_wb_indicators.csv
+│   ├── [numbered SQL and CSV query files]
+├── Vietnam_Trade_Memo.pdf
+├── run_pipeline.py
+├── requirements.txt
+├── methodology.md
+├── results_summary.md
+└── README.md
 ```
 
 ---
 
-## How to Use This Repository
+## Author
 
-**To view the SQL queries:** Open any `.sql` file in the `data/queries/` folder in any text editor.
-
-**To run the analysis yourself:**
-1. Install [DB Browser for SQLite](https://sqlitebrowser.org) (free)
-2. Import the cleaned CSV files from `data/cleaned/`
-3. Run the `.sql` files in order (01 → 15)
-
-**To open the dashboard:**
-1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-2. Open `dashboard/vietnam_trade.pbix`
-
----
-
-## About
-
-Built as a personal research project for college applications (2026–2027 intake).
-
-**Author:** [Your Name] | Grade 11 | Hanoi, Vietnam
-**Contact:** [Your email or LinkedIn — optional]
-**Status:** 🟡 In progress — target completion August 1, 2026
+Nguyễn Đăng Sơn  
+Grade 11, Edison Schools Ecopark, Vietnam  
+GitHub: [Jabariente](https://github.com/Jabariente)
