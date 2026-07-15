@@ -2,18 +2,18 @@ Methodology
 
 Data Sources
 
-UN Comtrade — primary trade flow data. All bilateral export records downloaded at HS 2-digit level using Vietnam (VNM, reporter code 704) as the reporting country. Partner countries: Japan (JPN, 392), Netherlands (NLD, 528), Italy (ITA, 380). Coverage: 2015–2024, ten annual observations per HS2 chapter per partner. Downloaded via the UN Comtrade Plus API (comtradeplus.un.org).
+UN Comtrade: primary trade flow data. All bilateral export records downloaded at HS 2-digit level using Vietnam (VNM, reporter code 704) as the reporting country. Partner countries: Japan (JPN, 392), Netherlands (NLD, 528), Italy (ITA, 380). Coverage: 2015–2024, ten annual observations per HS2 chapter per partner. Downloaded via the UN Comtrade Plus API (comtradeplus.un.org).
 
-World Bank Open Data — macroeconomic context indicators (GDP, trade openness). Used for contextual reference only; not used in primary trade calculations.
+World Bank Open Data: macroeconomic context indicators (GDP, trade openness). Used for contextual reference only; not used in primary trade calculations.
 
-Eurostat Comext — EU-level aggregate trade flows between the EU and Vietnam. Used to calculate the Netherlands' share of total Vietnam-EU export volume (24.56% in 2024). Cross-checked against UN Comtrade figures for consistency.
+Eurostat Comext: EU-level aggregate trade flows between the EU and Vietnam. Used to calculate the Netherlands' share of total Vietnam-EU export volume (24.56% in 2024). Cross-checked against UN Comtrade figures for consistency.
 
 Pipeline
 
 01_collect_data.py   Pull bilateral trade records from UN Comtrade API
 02_clean_data.py     Standardise, filter, derive calculated columns
 03_run_analysis.py   Execute 15 SQL queries against clean_combined.csv
-run_pipeline.py      Entry point — runs all three scripts in sequence
+run_pipeline.py      Entry point: runs all three scripts in sequence
 
 All intermediate outputs saved as CSV. Final tables loaded into Power BI Desktop for visualisation.
 
